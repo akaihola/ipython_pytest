@@ -4,6 +4,15 @@ ipython_pytest
 This little IPython extension gives you the ability to
 run tests using Pytest in an IPython Notebook.
 
+The motivation for the extension was to make it possible to
+demonstrate test-driven development using pytest in an IPython
+notebook driven presentation.
+
+This extension does not attempt to enable using notebooks as test
+suites. The intention is also not to collect test results from
+multiple cells, but to do separate test runs for cells in an
+interactive presentation.
+
 
 Installation
 ------------
