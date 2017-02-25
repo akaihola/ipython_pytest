@@ -14,7 +14,7 @@ multiple cells, but to do separate test runs for cells in an
 interactive presentation.
 
 This extension attempts to achieve for pytest_ what the
-`ipython_nose`_ extension does for `nose`. Unfortunately it isn't able
+`ipython_nose`_ extension does for nose_. Unfortunately it isn't able
 to inject globals from the notebook environment into the test like the
 ``%%nose`` cell magic in `ipython_nose_`. Instead, in
 ``ipython_pytest``, all imports, constants and helper functions need
