@@ -7,7 +7,7 @@ with open('README.rst') as f:
 
 setup(
     name='ipython_pytest',
-    version='0.0.1.dev',
+    version='0.0.1',
     author='Antti Kaihola',
     author_email='antti dot kaihola at eniram dot fi',
     py_modules=['ipython_pytest'],
