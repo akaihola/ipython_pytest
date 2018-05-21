@@ -14,14 +14,15 @@ multiple cells, but to do separate test runs for cells in an
 interactive presentation.
 
 This extension attempts to achieve for pytest_ what the
-`ipython_nose`_ extension does for nose_. Unfortunately it isn't able
+ipython_nose_ extension does for nose_. Unfortunately it isn't able
 to inject globals from the notebook environment into the test like the
-``%%nose`` cell magic in `ipython_nose_`. Instead, in
+``%%nose`` `cell magic in ipython_nose`_. Instead, in
 ``ipython_pytest``, all imports, constants and helper functions need
 to be contained in the test cell itself.
 
 .. _pytest: https://pytest.org/
-.. _ipython_nose: https://github.com/taavi/ipython_nose/pull/11/files
+.. _ipython_nose: https://github.com/taavi/ipython_nose
+.. _cell magic in ipython_nose: https://github.com/taavi/ipython_nose/pull/11/files
 .. _nose: https://nose.readthedocs.io/
 
 
@@ -85,7 +86,16 @@ Authors
 
 * Antti Kaihola <antti dot kaihola at eniram dot fi>
 
-Thanks to Taavi Burns for the idea in his ipython-nose package.
+
+Other similar tools
+-------------------
+
+Thanks to Taavi Burns for the idea in his ipython_nose_ package.
+
+Christopher Prohm has created the ipytest_ package for running pytest and
+unittest tests in IPython notebooks.
+
+.. _ipytest: https://github.com/chmp/ipytest
 
 
 Get the code
