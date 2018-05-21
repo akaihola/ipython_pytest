@@ -9,7 +9,7 @@ setup(
     name='ipython_pytest',
     version='0.0.1',
     author='Antti Kaihola',
-    author_email='antti dot kaihola at eniram dot fi',
+    author_email='antti.kaihola@eniram.fi',
     py_modules=['ipython_pytest'],
     url='https://github.com/akaihola/ipython_pytest',
     classifiers=['Development Status :: 4 - Beta',
