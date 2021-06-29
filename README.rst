@@ -4,6 +4,13 @@ ipython_pytest
 This little IPython extension gives you the ability to
 run tests using Pytest in an IPython Notebook.
 
+**Note:** There are now better and more actively maintained tools to achieve this,
+as well as an open Pytest feature request for supporting notebooks:
+  
+- jupyter-pytest-2_
+- ipytest_
+- `Pytest issue #2268`_
+
 The motivation for the extension was to make it possible to
 demonstrate test-driven development using pytest in an IPython
 notebook driven presentation.
@@ -20,6 +27,8 @@ to inject globals from the notebook environment into the test like the
 ``ipython_pytest``, all imports, constants and helper functions need
 to be contained in the test cell itself.
 
+.. _jupyter-pytest-2: https://github.com/sashgorokhov/jupyter-pytest-2
+.. _Pytest issue #2268: https://github.com/pytest-dev/pytest/issues/2268
 .. _pytest: https://pytest.org/
 .. _ipython_nose: https://github.com/taavi/ipython_nose
 .. _cell magic in ipython_nose: https://github.com/taavi/ipython_nose/pull/11/files
