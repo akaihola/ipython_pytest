@@ -11,6 +11,8 @@ as well as an open Pytest feature request for supporting notebooks:
 - ipytest_
 - `Pytest issue #2268`_
 
+See also testbook_ for adding separate unit tests for a notebook.
+
 The motivation for the extension was to make it possible to
 demonstrate test-driven development using pytest in an IPython
 notebook driven presentation.
@@ -28,7 +30,9 @@ to inject globals from the notebook environment into the test like the
 to be contained in the test cell itself.
 
 .. _jupyter-pytest-2: https://github.com/sashgorokhov/jupyter-pytest-2
+.. _ipytest: https://github.com/chmp/ipytest
 .. _Pytest issue #2268: https://github.com/pytest-dev/pytest/issues/2268
+.. _testbook: https://testbook.readthedocs.io/en/latest/
 .. _pytest: https://pytest.org/
 .. _ipython_nose: https://github.com/taavi/ipython_nose
 .. _cell magic in ipython_nose: https://github.com/taavi/ipython_nose/pull/11/files
@@ -96,15 +100,10 @@ Authors
 * Antti Kaihola <antti dot kaihola at wartsila dot com>
 
 
-Other similar tools
--------------------
+Acknowledgements
+----------------
 
 Thanks to Taavi Burns for the idea in his ipython_nose_ package.
-
-Christopher Prohm has created the ipytest_ package for running pytest and
-unittest tests in IPython notebooks.
-
-.. _ipytest: https://github.com/chmp/ipytest
 
 
 Get the code
