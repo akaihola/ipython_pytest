@@ -93,7 +93,7 @@ Caveats
 Authors
 -------
 
-* Antti Kaihola <antti dot kaihola at eniram dot fi>
+* Antti Kaihola <antti dot kaihola at wartsila dot com>
 
 
 Other similar tools
