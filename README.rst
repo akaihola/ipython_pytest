@@ -9,6 +9,7 @@ as well as an open Pytest feature request for supporting notebooks:
   
 - jupyter-pytest-2_
 - ipytest_
+- pytest_exploratory_
 - `Pytest issue #2268`_
 
 See also testbook_ for adding separate unit tests for a notebook.
@@ -31,6 +32,7 @@ to be contained in the test cell itself.
 
 .. _jupyter-pytest-2: https://github.com/sashgorokhov/jupyter-pytest-2
 .. _ipytest: https://github.com/chmp/ipytest
+.. _pytest_exploratory: https://pytest-exploratory.readthedocs.io/
 .. _Pytest issue #2268: https://github.com/pytest-dev/pytest/issues/2268
 .. _testbook: https://testbook.readthedocs.io/en/latest/
 .. _pytest: https://pytest.org/
