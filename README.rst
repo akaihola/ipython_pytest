@@ -68,12 +68,8 @@ Usage
 
   somewhere in your notebook.
 
-* Write tests that conform to Pytest conventions, e.g.::
-
-    def test_arithmetic():
-        assert 1+1 == 2
-
-* Add a cell consisting of::
+* Add a ``%%pytest`` cell with a test or tests
+  that conform to Pytest conventions, e.g.::
 
     %%pytest
 
@@ -87,6 +83,12 @@ Usage
 * Pass standard Pytest arguments to the magic::
 
     %%pytest --tb=short
+
+* Optionally, specify an existing directory to run the test in.
+  This causes pytest to use any ``conftest.py`` files that may be present
+  in the directory or one of its parent directories::
+
+    %%pytest --tb=short project_root/tests/module_a/component_1/
 
 
 Caveats
@@ -106,6 +108,8 @@ Acknowledgements
 ----------------
 
 Thanks to Taavi Burns for the idea in his ipython_nose_ package.
+
+Thanks to Patrick Stinson for the suggestion to add the directory argument.
 
 
 Get the code
