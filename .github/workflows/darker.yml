@@ -9,6 +9,6 @@ jobs:
       - uses: actions/checkout@v2
         with:
           fetch-depth: 0 
-      - uses: akaihola/darker@master
+      - uses: akaihola/darker@1.4.1
         with:
           src: "."
