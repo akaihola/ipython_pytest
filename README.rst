@@ -53,7 +53,7 @@ Installation
     ipython_pytest.py
     $ ipython notebook
 
-* You can also install it in a virtualenv in developent mode::
+* You can also install it in a virtualenv in development mode::
 
     $ cd ipython-pytest
     $ pip install -e .
