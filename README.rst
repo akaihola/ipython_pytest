@@ -4,8 +4,9 @@ ipython_pytest
 This little IPython extension gives you the ability to
 run tests using Pytest in an IPython Notebook.
 
-**Note:** There are now better and more actively maintained tools to achieve this,
-as well as an open Pytest feature request for supporting notebooks:
+**Note:** There are now better and more actively maintained tools to achieve this.
+There was also a rejected Pytest feature request for supporting notebooks -
+see the discussion for interesting details about this challenge:
   
 - jupyter-pytest-2_
 - ipytest_
