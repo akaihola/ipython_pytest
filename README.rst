@@ -119,7 +119,7 @@ Get the code
 Copyright
 ---------
 
-Copyright (c) 2016, Antti Kaihola.
+Copyright (c) 2016, 2018, Antti Kaihola.
 
 All rights reserved.
 
